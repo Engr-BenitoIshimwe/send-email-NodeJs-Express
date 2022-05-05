@@ -14,7 +14,7 @@ const sendEmailEthereal = async (req, res) => {
   });
 
   let info = await transporter.sendMail({
-    from: '"Coding Addict" <codingaddict@gmail.com>',
+    from: '"Benito" <benishimwe31@gmail.com>',
     to: 'bar@example.com',
     subject: 'Hello',
     html: '<h2>Sending Emails with Node.js</h2>',
